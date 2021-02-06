@@ -1,38 +1,188 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 780px;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://gracomonline.com.br/site/images/concurso/Harry.png");
+}
+.App button {
+  cursor: pointer;
+  background-image: linear-gradient(rgb(158, 148, 148), rgb(61, 60, 60));
+}
+.afterClick {
+  font-size: 20px;
+  font-weight: bold;
+  min-height: 30px;
+  height: 4vh;
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+}
+.beforeClick {
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 20px;
+  height: 7vh;
+  min-height: 30px;
+  width: 600px;
+  opacity: 0.925;
+}
+.App button:hover {
+  opacity: 0.7;
+}
+.Ravenclaw {
+  border-top: 5px solid #3470c0;
+
+  opacity: 0.9;
+  background-image: url("https://pm1.narvii.com/6596/92c22e7a926c818d299b452775e19df95cfad9a5_hq.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.Ravenclaw p {
+  background-image: initial;
+  opacity: 0.9;
+  border: 0;
+  text-shadow: 1px 0px 2px grey, -1px 0px 2px grey, 0px 1px 2px grey,
+    1px 0px 2px grey, -1px 0px 2px grey, 0px 1px 2px grey, 0px -1px 2px grey,
+    1px 0px 2px grey;
+  color: rgb(0, 0, 0);
+}
+.Ravenclaw h3,
+p {
+  background-image: initial;
+  opacity: 0.9;
+  border: 0;
+  text-shadow: 1px 0px 2px grey, -1px 0px 2px grey, 0px 1px 2px grey,
+    1px 0px 2px grey, -1px 0px 2px grey, 0px 1px 2px grey, 0px -1px 2px grey,
+    1px 0px 2px grey;
+  color: rgb(0, 0, 0);
+}
+.Hufflepuff {
+  border-top: 5px solid #eccf4a;
+  opacity: 0.9;
+  background-image: url("https://pm1.narvii.com/6596/43e6a87ad38e409feb0a69fcbe1685773c85d4fa_hq.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.Hufflepuff p {
+  background-image: initial;
+  border: 0;
+  text-shadow: 1px 0px 2px grey, -1px 0px 2px grey, 0px 1px 2px grey,
+    1px 0px 2px grey, -1px 0px 2px grey, 0px 1px 2px grey, 0px -1px 2px grey,
+    1px 0px 2px grey;
+  color: rgb(0, 0, 0);
+}
+.Hufflepuff h3 {
+  background-image: initial;
+  border: 0;
+  text-shadow: 1px 0px 2px grey, -1px 0px 2px grey, 0px 1px 2px grey,
+    1px 0px 2px grey, -1px 0px 2px grey, 0px 1px 2px grey, 0px -1px 2px grey,
+    1px 0px 2px grey;
+  color: rgb(0, 0, 0);
+}
+.Gryffindor {
+  border-top: 5px solid #eb3535;
+  opacity: 0.9;
+  background-image: url("https://pm1.narvii.com/6596/80cc8834263140fb384595432fe8209e75a5158d_hq.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.Gryffindor h3 {
+  background-image: initial;
+  /* text-shadow: 7px 4px 12px rgba(0, 255, 255, 1); */
+  border: 0;
+  text-shadow: 1px 0px 2px grey, -1px 0px 2px grey, 0px 1px 2px grey,
+    1px 0px 2px grey, -1px 0px 2px grey, 0px 1px 2px grey, 0px -1px 2px grey,
+    1px 0px 2px grey;
+  color: rgb(0, 0, 0);
+}
+.Gryffindor p {
+  background-image: initial;
+  /* text-shadow: 7px 4px 12px rgba(0, 255, 255, 1); */
+  border: 0;
+  text-shadow: 1px 0px 2px grey, -1px 0px 2px grey, 0px 1px 2px grey,
+    1px 0px 2px grey, -1px 0px 2px grey, 0px 1px 2px grey, 0px -1px 2px grey,
+    1px 0px 2px grey;
+  color: rgb(0, 0, 0);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Slytherin {
+  border-top: 5px solid #39b37a;
+  opacity: 0.9;
+  background-image: url("https://www.logaster.com.br/blog/wp-content/uploads/sites/6/2020/06/image7-2-1024x971-1024x971.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Slytherin p {
+  background-image: initial;
+  border: 0;
+  font-weight: bold;
+  /* font-size: 35px; */
+  text-shadow: 1px 0px 2px grey, -1px 0px 2px grey, 0px 1px 2px grey,
+    1px 0px 2px grey, -1px 0px 2px grey, 0px 1px 2px grey, 0px -1px 2px grey,
+    1px 0px 2px grey;
+  color: rgb(0, 0, 0);
+}
+.Slytherin h3 {
+  background-image: initial;
+  border: 0;
+  text-shadow: 1px 0px 2px grey, -1px 0px 2px grey, 0px 1px 2px grey,
+    1px 0px 2px grey, -1px 0px 2px grey, 0px 1px 2px grey, 0px -1px 2px grey,
+    1px 0px 2px grey;
+  color: rgb(0, 0, 0);
+}
+.studantCard p {
+  padding: 0;
+  margin: 0.5rem;
+}
+.studantCard h3 {
+  padding: 0;
+  margin: 0.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.studantName {
+  font-size: 1.4rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.studantHouse {
+  font-size: 1.2rem;
+}
+.studantImage img {
+  background-size: cover;
+  width: 100px;
+  height: 150px;
+  border: rgb(74, 96, 136) 2px solid;
+  border-radius: 50%;
+  opacity: 0.92;
+  padding: 0;
+}
+.studantCard {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border-collapse: collapse;
+  min-width: 200px;
+  max-width: 800px;
+  min-height: 250px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  height: 32vh;
 }
-
-.App-link {
-  color: #61dafb;
+.studantCard:hover {
+  opacity: 0.97;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.studantImage {
+  width: 100%;
 }
